@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAI+C8wfOKVsJiJSiqFMJ4zkwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkNzdkMWY1NzAtNDJhZC00NjRiLTg1YzEtNzZhZmE0MmUyMjAw
+    MB4XDTE5MDUwNzEzMDY1MVoXDTI0MDUwNTE0MDY1MVowLzEtMCsGA1UEAxMkNzdk
+    MWY1NzAtNDJhZC00NjRiLTg1YzEtNzZhZmE0MmUyMjAwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA1Pe94SahR32s+JGlKkv+6og3i6fu0AYtXGXld/7V
+    Xb8rqsKoj3mlwO2O5mCTrfxnW0ev5/c9/wboVGABzrB3B5fVCGzpvCYwr6M7NoQe
+    Sxg7KT2V4j9khA+nfYTpOIrB3KJCwwH0QiOV/Ukt+ilRhvakxsSzKYVEuToCMK05
+    F1504kzOcUS2p2icxdfhD6eSg1m/25m1QPrSxtZBT1Khi/G98pjy/yu5euM5tPKy
+    ZIuU6idJUOxzMXIsQS1CiPabKcvFmvbhIh9fBPu80fTbe7uZ0oP4pql7a0kI6WU0
+    PEDadeP4qdUhlQMnO/fBzQih/5g8pQdK8ds1R6UCVT6OpwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    THBDRIry5lAb0wj6kkdkjqzaN0jroRYVf4Nt1ibQFpzVvXnLyz4SP3rW+/LBMG2n
+    jhpTrr3GAb7k6J40rLPc/hoIVy5Ty+Rt5jX5/SvA/9jIl2tVFtwlYOzMNGo/lw5E
+    E3KKDJSrVPtJT4hKnNm28QTgzlwTJDR+rBH9YgnEh7rZHHcU6OyGU36uNQ9GHExy
+    EeVO/5MDFmE8ku/ewZIeGu9GaWWxFHnqOJb01J1CfxGcNHrHgd5yGvIq2ktPlcWr
+    wFabfHpyr6C9uPPSqbpmP1gQHYD8Id7qjPRpIENrZzJaYeCp2Mf48nC49hLzVmwn
+    kxUYWI+VNZgbQIHY0xyfwQ==
+    -----END CERTIFICATE-----
+  clusterName: playground
+  jx-install-version: 2.0.92
+  kubeProvider: gke
+  projectID: pcarta-playground
+  region: ""
+  secretsLocation: vault
+  server: https://35.234.76.242
+  systemVaultName: jx-vault-playground
+  zone: europe-west3-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
